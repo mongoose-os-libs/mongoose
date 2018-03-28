@@ -1,0 +1,12 @@
+author: mongoose-os
+description: Mongoose Embedded Web Server Library
+type: lib
+version: 6.11
+
+sources:  [ src ]
+includes: [ include ]
+
+tags:
+  - net
+
+manifest_version: 2017-09-29
