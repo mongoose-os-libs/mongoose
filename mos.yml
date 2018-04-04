@@ -9,4 +9,10 @@ includes: [ include ]
 tags:
   - net
 
+cdefs:
+  MG_ENABLE_DNS: 1
+  MG_ENABLE_DNS_SERVER: 1
+  MG_ENABLE_MQTT: 1
+  MG_ENABLE_SNTP: 1
+
 manifest_version: 2017-09-29
