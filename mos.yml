@@ -4,6 +4,7 @@ type: lib
 version: 6.11
 
 sources:  [ src ]
+includes: [ include ]
 
 tags:
   - net
