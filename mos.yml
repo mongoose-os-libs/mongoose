@@ -9,6 +9,9 @@ includes: [ include ]
 tags:
   - net
 
+libs:
+  - origin: https://github.com/mongoose-os-libs/vfs-common
+
 cdefs:
   MG_ENABLE_DNS: 1
   MG_ENABLE_DNS_SERVER: 1
