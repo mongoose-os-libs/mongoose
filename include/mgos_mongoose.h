@@ -76,12 +76,6 @@ void mgos_wdt_set_feed_on_poll(bool enable);
  */
 void mgos_set_enable_min_heap_free_reporting(bool enable);
 
-/*
- * Returns nameserver address. The caller should `free()` it. Returns NULL
- * in case of no DNS.
- */
-char *mgos_get_nameserver(void);
-
 #ifdef __cplusplus
 }
 #endif /* __cplusplus */
