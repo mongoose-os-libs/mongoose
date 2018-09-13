@@ -8,6 +8,7 @@ includes: [ include ]
 
 tags:
   - net
+  - docs:net:Mongoose network lib
 
 libs:
   - origin: https://github.com/mongoose-os-libs/vfs-common
