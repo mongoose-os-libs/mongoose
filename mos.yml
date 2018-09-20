@@ -11,6 +11,7 @@ tags:
   - docs:net:Mongoose network lib
 
 libs:
+  - origin: https://github.com/mongoose-os-libs/mbedtls
   - origin: https://github.com/mongoose-os-libs/vfs-common
 
 no_implicit_init_deps: true
