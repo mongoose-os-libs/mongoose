@@ -18,7 +18,7 @@
 /*
  * This file contains wrappers around low-level Mongoose Library calls.
  *
- * See https://mongoose-os.com/docs/book/intro.html#main-event-loop
+ * See https://mongoose-os.com/docs/mos/userguide/intro.md#main-event-loop
  * for the detailed explanation.
  */
 
