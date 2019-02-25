@@ -22,5 +22,8 @@ cdefs:
   MG_ENABLE_DNS_SERVER: 1
   MG_ENABLE_MQTT: 1
   MG_ENABLE_SNTP: 1
+  MG_SSL_IF_MBEDTLS_FREE_CERTS: 1
+  # Disabled for now because of fragmented handshake issue.
+  # MG_SSL_IF_MBEDTLS_MAX_FRAG_LEN: 1024
 
 manifest_version: 2018-06-20
