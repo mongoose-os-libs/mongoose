@@ -15,7 +15,8 @@ libs:
   - origin: https://github.com/mongoose-os-libs/vfs-common
 
 no_implicit_init_deps: true
-init_deps: []
+init_after:
+  - lwip
 
 cdefs:
   MG_ENABLE_DNS: 1
