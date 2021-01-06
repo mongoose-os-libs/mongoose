@@ -29,6 +29,7 @@ cdefs:
   MG_ENABLE_TUN: 0
   MG_LOG_DNS_FAILURES: 1
   MG_MAX_HTTP_REQUEST_SIZE: 3072
+  MG_MAX_HTTP_SEND_MBUF: 256
   MG_MAX_PATH: 256
   MG_SSL_IF_MBEDTLS_FREE_CERTS: 1
   # Disabled for now because of fragmented handshake issue.
