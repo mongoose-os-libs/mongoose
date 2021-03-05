@@ -31,7 +31,7 @@ cdefs:
   MG_MAX_DNS_ANSWERS: 16
   MG_MAX_DNS_QUESTIONS: 16
   MG_MAX_HTTP_REQUEST_SIZE: 3072
-  MG_MAX_HTTP_SEND_MBUF: 256
+  MG_MAX_HTTP_SEND_MBUF: 1460
   MG_MAX_PATH: 256
   MG_SSL_IF_MBEDTLS_FREE_CERTS: 1
   # Disabled for now because of fragmented handshake issue.
